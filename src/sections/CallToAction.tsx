@@ -13,7 +13,7 @@ export const CallToAction = () => {
     offset:['start end','end start']
 
   })
-  const translateY  = useTransform(scrollYProgress,[0,1],[1150,-1150])
+  const translateY  = useTransform(scrollYProgress,[0,1],[150,-150])
   return (
     <section ref={sectionRef} className=" bg-gradient-to-b from-white to-[#d2dcff] py-24 overflow-x-clip   ">
       <div className="container">
